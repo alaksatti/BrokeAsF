@@ -54,3 +54,9 @@ def target_value(la, lb, lc, target):
                     fin.append((a, b, c))
 
                     print(fin)
+
+def median(x, y, z):
+    '''find the median in a list'''
+    l = sort([x, y, z])
+    return(l[1])
+print(median(25, 15, 35))
