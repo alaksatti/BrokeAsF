@@ -176,3 +176,13 @@ def lowercase(str1):
 def ljust(str1):
     ''' add trailing zeros to a string '''
     return str1.ljust(10, '0')
+
+
+def singleline_int():
+    ''' take two ints taken from input and display on a single line '''
+    x, y = input('input an int')
+    print(x, y)
+
+
+
+singleline_int()
