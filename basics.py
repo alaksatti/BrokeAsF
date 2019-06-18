@@ -149,6 +149,7 @@ def filpos(lists):
 
 def prod_int(list_int):
     ''' compute the products of a list of ints '''
+    
     '''
     from functools import reduce
     try: 
@@ -165,3 +166,6 @@ def prod_int(list_int):
 
 
 
+def two_is_same(str1, str2):
+    '''check if two strings of the same value point to same memory location'''
+    return str1 is str2
