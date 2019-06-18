@@ -36,3 +36,8 @@ def addint(a, b):
         return a + b
     except TypeError:
         return'not integers'
+
+def findfile(filename):
+    ''' check whether a file exists '''
+    import os.path
+    return os.path.isfile(filename)
