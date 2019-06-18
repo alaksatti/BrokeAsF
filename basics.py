@@ -77,3 +77,10 @@ def sumofnpos(list, n):
     return ', '.join(map(str, newlist))
     
 
+
+def height_cm(ft, inch):
+    ''' convert height to cm '''
+    ft = int(ft) * 12
+    total  = (ft + int(inch)) * 2.54
+    return round(total, 2)
+
