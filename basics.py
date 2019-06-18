@@ -107,15 +107,11 @@ def greater(list, num):
 
 
 def numchar(str, char):
+    ''' returns the number of occurences of a character in a string'''
     if char is None or str is None:
         return
-    '''
-    count = 0
-    for i in str:
-        if char == i:
-            count+=1
-    return count
-    '''
 
     return str.count(char)
+
+
 
