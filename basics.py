@@ -174,7 +174,5 @@ def lowercase(str1):
     return list(filter(lambda x: x.islower(), str1))
 
 def ljust(str1):
-    ''' add leading zeros to a string '''
+    ''' add trailing zeros to a string '''
     return str1.ljust(10, '0')
-
-print(ljust("lmao"))
