@@ -185,8 +185,7 @@ def singleline_int():
 
 def extract(dict):
     ''' extract single key value pairs '''
-    new_dict = dict.fromkeys(1)
-    print(new_dict)
+    print(dict.get('color'))
 
 
 extract({'color': 'red', 'fruit': 'apple', 'ripe': 'soon'})
