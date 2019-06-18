@@ -149,6 +149,7 @@ def filpos(lists):
 
 def prod_int(list_int):
     ''' compute the products of a list of ints '''
+    '''
     from functools import reduce
     try: 
         return reduce(lambda x, y: int(x) * int(y), list_int)
@@ -156,3 +157,11 @@ def prod_int(list_int):
 
     except:
         return 'must be integers'
+    '''
+
+    list_int = list(map(str, list_int))
+    print(list_int)
+    return eval('*'.join(list_int))
+
+
+
