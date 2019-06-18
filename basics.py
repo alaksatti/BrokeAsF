@@ -75,8 +75,6 @@ def sumofnpos(list, n):
             counter+=1
 
     return ', '.join(map(str, newlist))
-    
-
 
 def height_cm(ft, inch):
     ''' convert height to cm '''
@@ -90,3 +88,12 @@ def abspath(filename):
     import os.path
     return os.path.abspath(str(filename))
 
+
+def sumdigits(ints):
+    ''' return sum of digits in a number'''
+    print(ints % 10, end='')
+    if ints // 10 > 0:
+        sumdigits(ints // 10)
+
+
+sumdigits(123)
