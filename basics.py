@@ -126,4 +126,3 @@ def numeric_string(number):
         return int(number)
     except:
         return 'not a nummeric number'
-
