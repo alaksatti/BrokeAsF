@@ -176,3 +176,5 @@ def lowercase(str1):
 def ljust(str1):
     ''' add leading zeros to a string '''
     str1.ljust(10, '0')
+
+print(ljust("lmao"))
