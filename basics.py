@@ -109,11 +109,13 @@ def greater(list, num):
 def numchar(str, char):
     if char is None or str is None:
         return
-    
+    '''
     count = 0
     for i in str:
         if char == i:
             count+=1
     return count
+    '''
 
+    return str.count(char)
 
