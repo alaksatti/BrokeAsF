@@ -173,5 +173,6 @@ def lowercase(str1):
     '''check if lowercase character exists in a string'''
     return list(filter(lambda x: x.islower(), str1))
 
-
-print(lowercase("lolMANH"))
+def ljust(str1):
+    ''' add leading zeros to a string '''
+    str1.ljust(10, '0')
