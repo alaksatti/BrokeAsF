@@ -84,3 +84,9 @@ def height_cm(ft, inch):
     total  = (ft + int(inch)) * 2.54
     return round(total, 2)
 
+
+def abspath(filename):
+    ''' returns abs path of filename'''
+    import os.path
+    return os.path.abspath(str(filename))
+
