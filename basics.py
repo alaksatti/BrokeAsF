@@ -117,3 +117,13 @@ def swap(a, b):
     ''' swap two variables '''
     a, b = b, a
     return a, b
+
+
+def numeric_string(number):
+    ''' determine if string is numeric or not '''
+    
+    try:
+        return int(number)
+    except:
+        return 'not a nummeric number'
+
