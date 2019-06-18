@@ -134,3 +134,10 @@ def print_url_contents(url):
     r = requests.get(url)
     print(r.content)
 
+def divfif(lists):
+    ''' with anonymous function find numbers divisible by 15 in a list '''
+    for x in list(map(lambda x: x, filter(lambda x: x % 15 == 0, lists))):
+	print(x, end=' ')
+
+    print()
+
