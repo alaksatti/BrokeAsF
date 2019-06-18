@@ -183,3 +183,9 @@ def singleline_int():
     x, y = map(int, input('input x and y: ').split())
     return x, y
 
+def extract(dict):
+    ''' extract single key value pairs '''
+    print(len(dict))
+
+
+extract({'color': 'red', 'fruit': 'apple', 'ripe': 'soon'})
