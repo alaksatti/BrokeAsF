@@ -180,9 +180,5 @@ def ljust(str1):
 
 def singleline_int():
     ''' take two ints taken from input and display on a single line '''
-    x, y = map(int, input('input x and y:    ').split())
+    x, y = map(int, input('input x and y: ').split())
     print(x, y)
-
-
-
-singleline_int()
