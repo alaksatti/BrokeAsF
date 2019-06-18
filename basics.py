@@ -126,3 +126,11 @@ def numeric_string(number):
         return int(number)
     except:
         return 'not a nummeric number'
+
+def print_url_contents(url):
+    '''request and print contents of url'''
+    import requests
+
+    r = requests.get(url)
+    print(r.content)
+
