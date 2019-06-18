@@ -100,3 +100,9 @@ def sorter(a, b, c):
     num = sorted([a, b, c])
     return ' '.join(map(str, num)) 
 
+
+def greater(list, num):
+    ''' returns numbers that are greater than a specified number'''
+    return ' '.join(str(i) for i in list if int(i) > num)
+
+
