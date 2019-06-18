@@ -95,3 +95,8 @@ def sumdigits(ints):
     return sum((int(i)) for i in ints)
 
 
+def sorter(a, b, c):
+    ''' sorts 3 ints without conditions or loops'''
+    num = sorted([a, b, c])
+    return ' '.join(map(str, num)) 
+
