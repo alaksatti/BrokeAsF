@@ -60,3 +60,20 @@ def profile(function):
         print('make sure funciton exists and is passed as a string')
 
 
+def sumofnpos(list, n):
+    ''' returns the first n pos numbers in a list '''
+    counter = 0
+    
+    if n is None or list is None or n > len(list):
+        return
+    
+    newlist = []
+    
+    for i in list:
+        if counter != n and int(i) > 0:
+            newlist.append(i)
+            counter+=1
+
+    return ', '.join(map(str, newlist))
+    
+
