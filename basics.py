@@ -95,4 +95,3 @@ def sumdigits(ints):
     return sum((int(i)) for i in ints)
 
 
-print(sumdigits(111))
