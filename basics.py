@@ -165,7 +165,13 @@ def prod_int(list_int):
     return eval('*'.join(list_int))
 
 
-
 def two_is_same(str1, str2):
     '''check if two strings of the same value point to same memory location'''
     return str1 is str2
+
+def lowercase(str1):
+    '''check if lowercase character exists in a string'''
+    return list(filter(lambda x: x.islower(), str1))
+
+
+print(lowercase("lolMANH"))
