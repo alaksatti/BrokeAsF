@@ -51,4 +51,12 @@ def listfiles(directory):
     return file_list
 
 
+def profile(function):
+    ''' returns the profile of a file'''
+    from cProfile import run
+    try:
+        run(function)
+    except:
+        print('make sure funciton exists and is passed as a string')
+
 
