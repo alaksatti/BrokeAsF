@@ -29,3 +29,10 @@ def sumthree(a, b, c):
         return 0
     else:
         return a + b + c
+
+def addint(a, b):
+    ''' add numbers together if they are int objects'''
+    try:
+        return a + b
+    except TypeError:
+        return'not integers'
