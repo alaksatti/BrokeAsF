@@ -145,3 +145,14 @@ def filpos(lists):
     ''' filter positive numbers from a list'''
     return list(filter(lambda x: x > 0, lists))
 
+
+
+def prod_int(list_int):
+    ''' compute the products of a list of ints '''
+    from functools import reduce
+    try: 
+        return reduce(lambda x, y: int(x) * int(y), list_int)
+
+
+    except:
+        return 'must be integers'
