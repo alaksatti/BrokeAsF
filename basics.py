@@ -91,9 +91,11 @@ def abspath(filename):
 
 def sumdigits(ints):
     ''' return sum of digits in a number'''
-    print(ints % 10, end='')
+
     if ints // 10 > 0:
         sumdigits(ints // 10)
 
+    print(ints % 10, end='')
 
+    
 sumdigits(123)
