@@ -24,11 +24,11 @@ def lcm(a, b):
 def sumthree(a, b, c):
     ''' returns the sum of 3 numbers unless 2 of them are identical '''
     l = [a, b, c]
-    set_l = set(l)
-    if len(set_l) < 3:
+    nums = set(l)
+    if len(nums) < 3:
         return 0
     else:
-        return a + b + c
+        return sum(map(int, nums))
 
 def addint(a, b):
     ''' add numbers together if they are int objects'''
@@ -41,3 +41,14 @@ def findfile(filename):
     ''' check whether a file exists '''
     import os.path
     return os.path.isfile(filename)
+
+def listfiles(directory):
+    ''' list files in a particular directory '''
+    from os import listdir
+    #from os.path import isfile, join
+    #file_list = [f for f in listdir(directory) if isfile(join(directory, f))]
+    file_list = [ f for f in listdir(directory)]
+    return file_list
+
+
+
