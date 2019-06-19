@@ -188,7 +188,7 @@ def oneandzero(str):
     if str.lower() not in ['true', 'false']:
         return 'string not true or false'
 
-    return int(True)
+    return 1 if str.lower() == 'true' else 0
 
 
 print(oneandzero('True'))
