@@ -191,7 +191,19 @@ def oneandzero(str):
 
 def binary(num):
     ''' convert a number to binary and keep leading zeros'''
-    return print "{0:b}".format(num)
+    return "{0:b}".format(num)
 
 
-print(binary(8))
+def cubem(n):
+    ''' returns the sum of the cube of all positive numbers smaller than specified number '''
+    if n not int or n < 0:
+        return
+
+    for i in range(1, n):
+        sum = sum(i ** 3)
+
+    return sum
+
+
+
+print(cubem(3))
