@@ -189,9 +189,9 @@ def oneandzero(str):
 
     return 1 if str.lower() == 'true' else 0
 
-def bin(num):
+def binary(num):
     ''' convert a number to binary and keep leading zeros'''
-    return bin(num)
+    return print "{0:b}".format(num)
 
 
-print(bin(8))
+print(binary(8))
