@@ -199,7 +199,8 @@ def cubem(n):
     if not isinstance(n, int) or n < 0:
         return
     
-
+    l = range(n)
+    print(l)
     return sum(list(map(lambda x: x ** 3, lists[n])))
 
 
