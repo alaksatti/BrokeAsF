@@ -198,11 +198,9 @@ def cubem(n):
     ''' returns the sum of the cube of all positive numbers smaller than specified number '''
     if not isinstance(n, int) or n < 0:
         return
+    
 
-    for i in range(1, n):
-        sum = sum(i ** 3)
-
-    return sum
+    return sum(list(map(lambda x: x ** 3, lists[n])))
 
 
 
