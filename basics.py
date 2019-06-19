@@ -204,12 +204,12 @@ def cubem(n):
 def oddprod(list):
     ''' find the odd product of any two numbers in a list '''
     l = []
-    for i in list:
-        if i is list[-1]:
-            return l
-        for j in range(list.index(i) + 1, len(list) - 1):
-            if (i * list[j]) % 2 != 0:
-                l.append(i * list[j])
-    return l
+    for i in range(len(list)):
+        for j in range(i, len(list)):
+            if i != j:
+                if (list[i] * list[j]) & 1:
+                    l.append(str(list[i] * list[j]))
+    return ' '.join(l)
 
-print(oddprod([1, 6, 4, 7, 8]))
+
+print(oddprod([1, 3, 4, 7, 8]))
