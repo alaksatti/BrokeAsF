@@ -196,7 +196,7 @@ def binary(num):
 
 def cubem(n):
     ''' returns the sum of the cube of all positive numbers smaller than specified number '''
-    if n not int or n < 0:
+    if not isinstance(n, int) or n < 0:
         return
 
     for i in range(1, n):
