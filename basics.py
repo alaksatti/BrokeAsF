@@ -201,5 +201,10 @@ def cubem(n):
     
     return sum(i ** 3 for i in range(1, n))
     
+def oddprod(list):
+    ''' find the odd product of any two numbers in a list '''
+    for i in range(0, len(list) // 2):
+        print(list[i])
 
-print(cubem(3))
+
+print(oddprod([1, 6, 4, 7, 8]))
