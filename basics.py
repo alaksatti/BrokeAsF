@@ -183,13 +183,12 @@ def singleline_int():
     x, y = map(int, input('input x and y: ').split())
     return x, y
 
-def extract(dict):
-    ''' extract single key value pairs '''
-    value = 'red'
-    for v in dict.values():
-        if v == value:
-            print('yay ', v)
-            break
+def oneandzero(str):
+    ''' converts true to 0 and 1 to false '''
+    if str.lower() not in ['true', 'false']:
+        return 'string not true or false'
+
+    return int(str)
 
 
-extract({'color': 'red', 'fruit': 'apple', 'ripe': 'soon'})
+print(oneandzero('TRue'))
