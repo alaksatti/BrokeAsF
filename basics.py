@@ -161,7 +161,6 @@ def prod_int(list_int):
     '''
 
     list_int = list(map(str, list_int))
-    print(list_int)
     return eval('*'.join(list_int))
 
 
@@ -189,3 +188,10 @@ def oneandzero(str):
         return 'string not true or false'
 
     return 1 if str.lower() == 'true' else 0
+
+def bin(num):
+    ''' convert a number to binary and keep leading zeros'''
+    return bin(num)
+
+
+print(bin(8))
