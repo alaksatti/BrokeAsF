@@ -184,11 +184,11 @@ def singleline_int():
     return x, y
 
 def oneandzero(str):
-    ''' converts true to 0 and 1 to false '''
+    ''' converts true to 1 and 0 to false '''
     if str.lower() not in ['true', 'false']:
         return 'string not true or false'
 
-    return int(str)
+    return int(True)
 
 
-print(oneandzero('TRue'))
+print(oneandzero('True'))
