@@ -211,5 +211,3 @@ def oddprod(list):
                     l.append(str(list[i] * list[j]))
     return ' '.join(l)
 
-
-print(oddprod([1, 3, 4, 7, 8]))
