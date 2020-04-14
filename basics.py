@@ -20,3 +20,12 @@ def gcd(a, b):
 def lcm(a, b):
     ''' returns the least common multiple '''
     return (a * b / (gcd(a, b)))
+
+def sumthree(a, b, c):
+    ''' returns the sum of 3 numbers unless 2 of them are identical '''
+    l = [a, b, c]
+    set_l = set(l)
+    if len(set_l) < 3:
+        return 0
+    else:
+        return a + b + c
