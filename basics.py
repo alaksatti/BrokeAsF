@@ -16,3 +16,7 @@ def gcd(a, b):
         return gcd(b, a % b)
     else:
         return a
+
+def lcm(a, b):
+    ''' returns the least common multiple '''
+    return (a * b / (gcd(a, b)))
