@@ -139,3 +139,18 @@ def even_odd(list, idx=0):
 
     return True
 
+def adj_prod(list, idx1=0, idx2=1, max=0):
+    ''' find the largest product of the pair od adjacent elements from a list of ints'''
+    n_max = list[idx1] * list[idx2]
+
+    if n_max > max:
+        max = n_max
+
+
+    if idx2 + 1 < len(list):
+        adj_prod(list, idx + 1, idx + 2, max)
+
+    return max
+
+
+print(adj_prod([1,2,3,4,5,6]))
