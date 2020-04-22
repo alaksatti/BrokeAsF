@@ -104,6 +104,7 @@ def sum_index(lists):
 def occur_2(text, str2):
     ''' finds the position second occurence of one string in the other, otherwise return -1 '''
     return text.find(str2, text.find(str2))
-print(occur_2("the lazy fox said watup and said said", "said"))
+
+print(occur_2("the lazy fox said watup and said said", "the"))
     
     
