@@ -97,3 +97,11 @@ def rm_letters(str):
     ''' remove consecutive letters '''
     return str[0] + ''.join(str[i] for i in range(1, len(str)) if str[i] != str[i - 1])
 
+def sum_index(list):
+    ''' compute sum of a givven array of numbers where each int is multiplied by its index '''
+    l = filter(lambda x: str[x] * x, list)
+    print(l)
+
+
+
+sum_index([1, 2, 3, 4])
