@@ -125,5 +125,4 @@ def max_min(str):
     l = list(map(int, str.split()))
     return max(l), min(l)
 
-print(max_min("1 4 5 77 9 0"))
     
