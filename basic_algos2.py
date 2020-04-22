@@ -109,7 +109,7 @@ def occur_2(text, str2):
         return -1
     if c == 2:
         return text.rfind(str2)
-    print(text[13:])
+    print(text[13:-1])
 
     return text.find(str2, text.find(str2))
 print(occur_2("the lazy fox said watup and said said", "said"))
