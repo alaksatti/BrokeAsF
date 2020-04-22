@@ -86,7 +86,7 @@ def running(list, idx=1):
     if len(list) <= 1:
         return list
     
-    list[idx] = eval('+'.join(list[x] for x in range(idx + 1)))
+    list[idx] = list[idx] + list[idx - 1]
 
     if idx + 1 < len(list):
         running(list, idx + 1)
