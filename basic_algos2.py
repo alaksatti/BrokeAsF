@@ -101,5 +101,3 @@ def sum_index(lists):
     ''' compute sum of a given array of numbers where each int is multiplied by its index '''
     return sum(x * lists[x] for x in range(len(lists)))
 
-
-print(sum_index([1, 2, 3, 4]))
