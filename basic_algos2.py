@@ -69,7 +69,7 @@ def rev_even(txt):
     print(words)
     #    new = [reversed(x) if len(x) % 2 == 0 else x for x in txt]
     new = ''
-x    return ' '
+    return ' '
 
 
 print(rev_even("The quick brown fox jumps over the lazy dog"))
