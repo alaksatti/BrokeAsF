@@ -70,7 +70,7 @@ def rev_even(txt):
 
 
 def ish(num):
-    ''' checks if an int is oddish or evenish by summing the ind digits'''
+    ''' checks if an int is oddish or evenish by summing the idv. digits'''
 
     sum_num = eval('+'.join(d for d in str(num)))
 
@@ -80,4 +80,16 @@ def ish(num):
 
 
 
+def running(list, idx=1):
+    ''' returns list of running total '''
+
+    if len(list) <= 1:
+        return list
     
+    list[idx] = eval('+'.join(list[x] for x in range(idx + 1)))
+
+    if idx + 1 < len(list):
+        running(list, idx + 1)
+
+    return list
+print(running([1,2,3,4,5]))
