@@ -130,17 +130,13 @@ def max_min(str):
 def even_odd(list, idx=0):
     ''' check if every even index is even and every odd index is odd from a list of ints '''
 
-    if idx == len(list):
-        return True
-
-
-
     if (idx % 2 == 0 and list[idx] % 2 == 0) or (idx % 2 != 0 and list[idx] % 2 != 0):
-        even_odd(list, idx + 1)
+        if idx > len(list):
+            even_odd(list, idx + 1)
+        
+    else:
+        return False
 
-
-    return False
-
-
+    return True
 
 print(even_odd([2, 1, 4, 3, 6, 7, 6, 3]))
