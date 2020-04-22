@@ -101,3 +101,9 @@ def sum_index(lists):
     ''' compute sum of a given array of numbers where each int is multiplied by its index '''
     return sum(x * lists[x] for x in range(len(lists)))
 
+def occur_2(str1, str2):
+    ''' finds the second occurence of one string in the other, otherwise return -1 '''
+
+
+
+    
