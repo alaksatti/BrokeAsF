@@ -61,3 +61,4 @@ def median(x, y, z):
     l.sort()
     return(l[1])
 
+ 
