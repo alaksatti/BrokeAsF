@@ -123,7 +123,8 @@ def uptrend(list):
 def max_min(str):
     '''determine the max and min from a str of numbers separated by spaces'''
     l = str.split()
-    return max(int(l)), min(int(l))
+    l = list(map(int, l))
+    return max(l), min(l)
 
 print(max_min("1 4 5 77 9 0"))
     
