@@ -64,10 +64,12 @@ def median(x, y, z):
  
 def rev_even(txt):
     ''' reverses all words with an even length '''
-    [print(x) for x in txt]
+    words = txt.split()
+    words = [reversed(word) for word in words if len(word) % 2 == 0]
+    
     #    new = [reversed(x) if len(x) % 2 == 0 else x for x in txt]
     new = ''
-    return ' '
+x    return ' '
 
 
 print(rev_even("The quick brown fox jumps over the lazy dog"))
