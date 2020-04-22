@@ -66,7 +66,7 @@ def rev_even(txt):
     ''' reverses all words with an even length '''
     words = txt.split()
     words = [word[::-1] if len(word) % 2 == 0 else word for word in words]
-    print(list(words))
+    print(' '.join(words))
     #    new = [reversed(x) if len(x) % 2 == 0 else x for x in txt]
     new = ''
     return ' '
