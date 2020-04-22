@@ -69,4 +69,13 @@ def rev_even(txt):
     return words
 
 
-print(rev_even("The quick brown fox jumps over the lazy dog"))
+def ish(num):
+    ''' checks if an int is oddish or evenish by summing the ind digits'''
+    sum_num = eval('+'.join(list(num)))
+    if sum_num % 2 == 0:
+        return 'evenish'
+    return 'oddish'
+
+
+print(ish(98))
+    
