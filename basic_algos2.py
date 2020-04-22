@@ -139,4 +139,3 @@ def even_odd(list, idx=0):
 
     return True
 
-print(even_odd([2, 1, 4, 3, 6, 7, 6, 3]))
