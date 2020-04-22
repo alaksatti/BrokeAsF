@@ -95,11 +95,6 @@ def running(list, idx=1):
 
 def rm_letters(str):
     ''' remove consecutive letters '''
-    l = []
-    for i in range(len(str)):
-        if i + 1 < len(str):
-            if str[i] != str[i + 1]:
-                l += str[i]
+    return ''.join(str[i] if i + 1 < len(str) and str[i] != str[i + 1] for i in range(len(str)))
 
-    return ''.join(l)
 print(rm_letters("pppppppppppppppythonbbbbbb"))
