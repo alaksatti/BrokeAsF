@@ -92,4 +92,4 @@ def running(list, idx=1):
         running(list, idx + 1)
 
     return list
-print(running([1,2,3,4,5]))
+
