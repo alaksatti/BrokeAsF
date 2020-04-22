@@ -118,7 +118,3 @@ def uptrend(list):
         if list[i] < list[i - 1]:
             return False
     return True
-
-
-
-print(uptrend([1,6,3,4]))
