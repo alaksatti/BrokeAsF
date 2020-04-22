@@ -146,9 +146,10 @@ def adj_prod(list, idx1=0, idx2=1, max=0):
     if n_max > max:
         max = n_max
 
+    print(idx1, idx2, max)
 
     if idx2 + 1 < len(list):
-        adj_prod(list, idx1 + 1, idx2 + 2, max)
+        adj_prod(list, idx1 + 1, idx2 + 1, max)
 
     return max
 
