@@ -101,9 +101,16 @@ def sum_index(lists):
     ''' compute sum of a given array of numbers where each int is multiplied by its index '''
     return sum(x * lists[x] for x in range(len(lists)))
 
-def occur_2(str1, str2):
-    ''' finds the second occurence of one string in the other, otherwise return -1 '''
+def occur_2(text, str2):
+    ''' finds the position second occurence of one string in the other, otherwise return -1 '''
+    
+    c = text.count(str2)
+    if c < 2:
+        return -1
+    if c == 2:
+        return text.rfind(str2)
 
 
-
+print(occur_2("the lazy fox said watup", "said"))
+    
     
