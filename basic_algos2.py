@@ -112,4 +112,9 @@ def occur_2(text, str2):
 
 
     
-    
+def uptrend(list):
+    ''' checks if a sequence of numbers has an upward trend '''
+    return list[i] > list[i - 1] for i in range(1, len(list))
+
+
+print(uptrend([1,2,3,4])
