@@ -118,3 +118,8 @@ def uptrend(list):
         if list[i] < list[i - 1]:
             return False
     return True
+
+
+def max_min(str):
+    '''determine the max and min from a str of numbers separated by spaces'''
+    
