@@ -71,11 +71,13 @@ def rev_even(txt):
 
 def ish(num):
     ''' checks if an int is oddish or evenish by summing the ind digits'''
+
     sum_num = eval('+'.join(d for d in str(num)))
+
     if sum_num % 2 == 0:
         return 'evenish'
     return 'oddish'
 
 
-print(ish(98))
+
     
