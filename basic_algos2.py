@@ -29,7 +29,7 @@ def sum_zero(list, idx1=0, idx2=1, idx3=2):
         print(l)
 
     if idx3 < len(list):
-        sum_zero(list, idx+=1, idx2+=1, idx3+=1)
+        sum_zero(list, idx1+1, idx2+1, idx3+1)
         
     return
 
