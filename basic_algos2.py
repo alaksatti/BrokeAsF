@@ -43,6 +43,6 @@ def txt_freq(str):
     print(word)
     print(freq)
 
-text_freq("hello world hello my name is aalaa")
+txt_freq("hello world hello my name is aalaa")
     
     
