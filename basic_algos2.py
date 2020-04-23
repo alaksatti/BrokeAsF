@@ -44,7 +44,7 @@ def txt_freq(str):
 
     
     
-def target_valeu(la, lb, lc, target):
+def target_value(la, lb, lc, target):
     ''' check the sum of three elements from different arrays is equal to target value '''
     fin = []
     for a in la:
