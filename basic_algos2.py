@@ -40,7 +40,7 @@ def txt_freq(str):
     ''' take a string and print words and occurences'''
     words = str.split()
     freq = [words.count(n) for n in words]
-    print(word)
+    print(words)
     print(freq)
 
 txt_freq("hello world hello my name is aalaa")
