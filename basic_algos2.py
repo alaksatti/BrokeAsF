@@ -21,6 +21,8 @@ def rm_third(list, index=0):
 
 
 def sum_zero(list, idx1=0, idx2=1, idx3=2):
+    ''' prints unique triplets that sum to 0 in list '''
+    ''' unique where abs value of ints are unequal '''
     l = [list[idx1], list[idx2], list[idx3]]
 
     u = [-x if x < 0 else x for x in l]
@@ -33,4 +35,4 @@ def sum_zero(list, idx1=0, idx2=1, idx3=2):
         
     return
 
-sum_zero([1, -6, 4, 2, -1, 2, 0, -2, 0])
+
