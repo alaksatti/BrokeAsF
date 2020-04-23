@@ -42,7 +42,7 @@ def txt_freq(str):
     freq = [words.count(n) for n in words]
     print(words)
     print(freq)
-
+    print(list(zip(words, freq)))
 txt_freq("hello world hello my name is aalaa")
     
     
