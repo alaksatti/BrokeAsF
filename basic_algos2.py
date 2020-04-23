@@ -36,3 +36,13 @@ def sum_zero(list, idx1=0, idx2=1, idx3=2):
     return
 
 
+def txt_freq(str):
+    ''' take a string and print words and occurences'''
+    words = str.split()
+    freq = [list.count(n) for n in word)]
+    print(word)
+    print(freq)
+
+text_freq("hello world hello my name is aalaa")
+    
+    
