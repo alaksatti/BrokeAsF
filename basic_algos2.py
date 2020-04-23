@@ -28,7 +28,7 @@ def sum_zero(list, idx1=0, idx2=1, idx3=2):
     if len(set(u)) == 3 and sum(l) == 0:
         print(l)
 
-    if idx3 < len(list):
+    if idx3 + 1 < len(list):
         sum_zero(list, idx1+1, idx2+1, idx3+1)
         
     return
