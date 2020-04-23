@@ -44,3 +44,17 @@ def txt_freq(str):
 
     
     
+def target_valeu(la, lb, lc, target):
+    ''' check the sum of three elements from different arrays is equal to target value '''
+    fin = []
+    for a in la:
+        for b in lb:
+            for c in lc:
+                if sum(a, b, c) == target and (a, b, c) not in fin:
+                    fin.append((a, b, c))
+
+                print(fin)
+
+
+
+target_value([10, 20, 20, 20], [10, 20, 30, 40],  [10, 30, 40, 20], 70)
