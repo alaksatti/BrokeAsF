@@ -50,7 +50,7 @@ def target_value(la, lb, lc, target):
     for a in la:
         for b in lb:
             for c in lc:
-                if sum(a, b, c) == target and (a, b, c) not in fin:
+                if a + b + c == target and (a, b, c) not in fin:
                     fin.append((a, b, c))
 
                 print(fin)
