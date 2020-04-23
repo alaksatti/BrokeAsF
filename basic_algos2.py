@@ -54,7 +54,3 @@ def target_value(la, lb, lc, target):
                     fin.append((a, b, c))
 
                     print(fin)
-
-
-
-target_value([10, 20, 20, 20], [10, 20, 30, 40],  [10, 30, 40, 20], 70)
