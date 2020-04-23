@@ -20,21 +20,17 @@ def rm_third(list, index=0):
 
 
 
-
-
-lists = [1, -6, 4, 2, -1, 2, 0, -2, 0]
-
-idx1, idx2, idx3 = 0, 1, 2
-
-while idx3 < len(lists):
-    l = [lists[idx1], lists[idx2], lists[idx3]]
+def sum_zero(list, idx1=0, idx2=1, idx3=2):
+    l = [list[idx1], list[idx2], list[idx3]]
 
     u = [-x if x < 0 else x for x in l]
 
     if len(set(u)) == 3 and sum(l) == 0:
         print(l)
 
+    if idx3 < len(list):
+        sum_zero(list, idx+=1, idx2+=1, idx3+=1)
+        
+    return
 
-    idx1+=1
-    idx2+=1
-    idx3+=1
+sum_zero([1, -6, 4, 2, -1, 2, 0, -2, 0])
