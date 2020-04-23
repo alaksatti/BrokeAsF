@@ -151,6 +151,3 @@ def adj_prod(list, idx1=0, idx2=1, max=0):
 
 
     return(max)
-
-
-print(adj_prod([1,2,3,4,5,6]))
