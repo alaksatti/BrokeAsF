@@ -21,7 +21,7 @@ def rm_third(list, index=0):
 
 
 
-rm_third([10, 20, 30, 40, 50, 60, 70, 80, 90])
+
 lists = [1, -6, 4, 2, -1, 2, 0, -2, 0]
 
 idx1, idx2, idx3 = 0, 1, 2
