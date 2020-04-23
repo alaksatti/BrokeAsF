@@ -16,7 +16,7 @@ def rm_third(list, index=0):
     index = (index + 2) % l
 
     list.remove(list[index])
-    rm_third(list)
+    rm_third(list, index)
 
 
 
@@ -36,3 +36,5 @@ def sum_zero(list, idx1=0, idx2=1, idx3=2):
     return
 
 
+
+print(rm_third([10, 20, 30, 40, 50, 60, 70, 80, 90]))
