@@ -151,3 +151,13 @@ def adj_prod(list, idx1=0, idx2=1, max=0):
 
 
     return(max)
+
+def cumu_sum(str):
+    ''' returns a list with the current running sum at each index '''
+    l = ''
+    for i in str[:-5]:
+        l += '*'
+    for i in str[-5:]:
+        l+= i
+    print(l)
+cumu_sum("12345")
