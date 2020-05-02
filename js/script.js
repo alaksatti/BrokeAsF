@@ -74,9 +74,35 @@ function initMap() {
     }
 
 
+    function  findlatlng(geocoder, map, infoWindow, address, properties){
+	if (address){
+	    geocoder.geocode({'address': address}, function(results, status) {
+		    if (status === 'OK') {
+			if (results[0]) {
+			    var marker = new google.maps.Marker({
+				    map: map,
+				    position: results[0].geometry.location
+				});
 
+			    if (properties.icon){
+				marker.setIcon(properties.icon);
+			    }
 
+			    if (properties.content){
+				var infoWindow = new google.maps.InfoWindow({
+					content:properties.content
+				    });
 
+				marker.addListener('click', function(){
+					infoWindow.open(map, marker)
+					    });
+			    }
+			}
+		    }
+		});
+	}
+    }
+}
 
 
     function handleLocationError(browserHasGeolocation, infoWindow, pos) {
