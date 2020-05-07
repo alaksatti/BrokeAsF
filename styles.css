@@ -5,10 +5,114 @@ body {
   padding: 0;
   background-color: black;
 }
+canvas {
+  display: block;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+.container {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin-right: 2%;
+  margin-left: 2%;
+  color: #9D490A;
+  margin-top: 2%;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 140px;
+  font-size: 40;
+  font-weight: bolder;
+  font-family: chalkduster, fantasy;
+  position: relative;
+
+}
+
+nav a{
+
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: #9D490A;;
+
+
+}
+
+
+nav a::after{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #9D490A;
+  position: absolute;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::after{
+  width: 100%;
+}
+
+
+.about {
+  margin-top: 56%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  background: rgba(0,0,0,.8);
+}
+
+
+.about h3 {
+  color: #5A7843;
+  font-family: chalkduster, fantasy;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 30;
 
 
 
+}
 
+.about p {
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 1.3;
+  font-size: 20;
+  text-align: center;
+
+}
+
+.about li {
+  color: white;
+  margin-left: 2%;
+  line-height: 1.3;
+  font-size: 20;
+
+}
 
 
 
@@ -20,3 +124,59 @@ body {
     width: 100%;
 }
 
+
+.maptitle {
+  color: #5A7843;
+  font-family: chalkduster, fantasy;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 30;
+
+}
+
+#map {
+  background: rgba(0,0,0,.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 600px;
+}
+
+.contact {
+  margin-top: 260%;
+  position: absolute;
+  z-index: 1;
+  background: rgba(0,0,0,.8);
+  width: 100%;
+}
+
+.contact h3 {
+  color: #5A7843;
+  font-family: chalkduster, fantasy;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 30;
+
+}
+
+.contact p {
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 1.3;
+  font-size: 20;
+  text-align: center;
+}
+/*
+p .social{
+  position: absolute;
+  z-index: 1;
+  background: rgba(0,0,0,.8);
+  width: 100%;
+}
+
+.contact .social {
+    margin-left: 30%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+*/
