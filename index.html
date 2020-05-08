@@ -62,6 +62,23 @@ ibraries=places" async defer></script>
       controls.enableZoom = false;
 
 
+      // move object about its position
+      let controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.enableZoom = false;
+
+      //  scene background
+      let space = [
+        'images/scene/right.png', 'images/scene/left.png',
+        'images/scene/top.png', 'images/scene/bottom.png',
+        'images/scene/front.png', 'images/scene/back.png'
+      ];
+
+      // attach scene to background
+      let loader = new THREE.CubeTextureLoader();
+      scene.background = loader.load(space);
+
+
+
         // create camera for earth
       earthcamera = new THREE.CubeCamera(1,1000,500);
       earthcamera.position.set(0,100,0);
@@ -89,9 +106,30 @@ ibraries=places" async defer></script>
       earth.position.set(0,50,0);
       
       scene.add(earth);
+      scene.add(new THREE.AmbientLight(0x333333));
+      var light = new THREE.DirectionalLight(0xffffff, 1);
+      light.position.set(5,100,5);
+      scene.add(light);
 
 
-      scene.add(new THREE.DirectionalLight(0xffffff, 1));
+      var animate = function(){
+        earth.rotation.y -= 0.005;
+        // earth.rotation.x += 0.0005;
+        requestAnimationFrame(animate);
+        renderer.render(scene,camera);
+      }
+
+      // because camera and mesh is by default at 0 0 0 position within our scene
+      // we wouldnt be able to see the object because the camera is on top of the meshbasic_frag
+      //need to set the z position of mesh i.e. -1000, so we can see it at our viewport
+      //eartmesh.position.set(0, 0, 0);
+
+
+      animate();
+
+      renderer.render(scene,camera);
+      earthcamera.updateCubeMap(renderer,scene);
+      requestAnimationFrame(render);
 
       
       </script>
