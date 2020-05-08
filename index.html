@@ -62,6 +62,10 @@ ibraries=places" async defer></script>
       controls.enableZoom = false;
 
 
+        // create camera for earth
+      earthcamera = new THREE.CubeCamera(1,1000,500);
+      earthcamera.position.set(0,100,0);
+      scene.add(earthcamera);
 
       // create a mesh that takes two params, geometry and Material
       // geometry, the geometry of 3d object
