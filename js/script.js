@@ -44,7 +44,33 @@ function initMap() {
 		      content: '<h3> Church Without Walls </h3><p><b>Address</b>: 164 6th Street, San Francisco, CA 94103</p><p><b>Offering</b>: Cafe [10 - 11am] & Dinner [6 - 7pm] on <b> M-F </b></p><p><b>Note</b>: Cafe: cofee & toast, Dinner: A hot meal.</p><p><b>Phone Number</b>: 415-861-8688</p>'
 
 		  },
-	  ]
+
+		  {
+		      coordinates: {lat:37.7843, lng:-122.3881},
+		      content: '<h3> Homeless Church </h3><p><b>Address</b>: Brannan & Embarcadero, San Francisco, CA 94105</p><p><b>Offering</b>: Brunch [11am - Noon] & Dinner[6:30 - 7:30pm] on <b> Sundays </b></p><p><b>Note</b>: Brunch: Coffee, donuts, pancakes & sausage. Dinner: pizza. Optional community prayer service starts 1 hour before mealtime.</p><p><b>Phone Number</b>: 415-722-9517</p>'
+		  },
+
+		  {
+		      coordinates: {lat:37.7651, lng:-122.4197},
+		      content: '<h3> Homeless Church </h3><p><b>Address</b>: NE BART Plaza, 16th & Mission Street</p><p><b>Offering</b>: Lunch [4:30 - 5:30pm] on <b> Sundays</b></p><p><b>Note</b>: Lunch: chicken & rice.</p><p><b>Phone Number</b>: 415-722-9517</p>'
+		  },
+
+		  {
+		      coordinates: {lat:37.7666, lng:-122.4073},
+		      content: '<h3> Martin de Porres House of Hospitality </h3><p><b>Address</b>: 225 Potrero Ave, San Francisco, CA 94103</p><p><b>Offering</b>: Breakfast[6:30 - 7:30am] on <b> M T TH F </b>, Brunch [9 - 10:30am] on <b> Sundays </b> & Lunch [12 - 2pm] on <b> T W TH F SA </b></p><p><b>Note</b>: Usually a Vegetarian or Vegan! alternative. Breakfast: oatmeal & herb tea. Brunch: a hearty meal. Lunch: a hearty soup & salad.</p><p><b>Phone Number</b>: 415-552-0240</p>',
+		  },
+
+		  {
+		      coordinates: {lat:37.7067, lng:-122.4620},
+		      content: '<h3> North Peninsula Food Pantry & Dining Center of Daly City </h3><p><b>Address</b>: 31 Bepler Street, San Francisco, CA 94014</p><p><b>Offering</b>: Dinner[5:00 - 5:30pm] on <b> M T TH</b></p><p><b>Note</b>: A full-course meal. 5-5:30pm or until food runs out.</p><p><b>Phone Number</b>: 650-994-5150</p>',
+		  },
+
+		  {
+		      coordinates: {lat:37.7839, lng:-122.4190},
+		      content: '<h3> Project Open Hand </h3><p><b>Address</b>: 730 Polk Street, San Francisco, CA 94109</p><p><b>Offering</b>: Lunch [10:30am - 12:30pm] on <b> M - F </b></p><p><b>Note</b>: Age 59 & under with ID. $2 suggested donation; no one turned away. First come first serve.</p><p><b>Phone Number</b>: 415-447-2480 (8:30am - 1:30pm)</p>',
+		  }
+
+		  ];
 
 
     for(var i = 0; i < marker.length; i++){
