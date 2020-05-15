@@ -4,6 +4,9 @@
     <meta http-equiv="content-type" content="text/html; charset-UTF-8" />
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/three.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
   </head>
   <body>
     <header>
@@ -20,6 +23,70 @@ ibraries=places" async defer></script>
 
       <br><br>
       </div>
+    <script>
+      //whenever creating renderer, canvas gets created, can dynamically attach canvas to renderer
 
+      var renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      // perspective camera, objects in distance appear farther away
+      // pass into camera the field of view and aspect ratio (passing ratio of renderer aka size of window), near and far
+      //The near and far make it so objects too close/far wont be rendered
+
+      var camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 5000);
+
+
+      // camera is by deault added to 0x, 0y, 0z position
+      camera.position.set(-500, 400, 1000);
+
+
+      // create scene, the container object of our world
+      var scene = new THREE.Scene();
+
+
+      //attach body to renderer
+      document.body.appendChild(renderer.domElement);
+
+      // resizing appropriatley when screen size changes
+      window.addEventListener( 'resize', function(){
+      var width = window.innerWidth;
+      var height = window.innerHeight;
+      renderer.setSize(width, height);
+      camera.aspect = width/height;
+      camera.updateProjectionMatrix();
+      });
+
+      // move object about its position
+      let controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.enableZoom = false;
+
+
+
+      // create a mesh that takes two params, geometry and Material
+      // geometry, the geometry of 3d object
+      // material, material of 3d object MeshBasicMaterial is solid colors, Phong - shiny surface with specular lights
+
+      var geometry = new THREE.SphereGeometry(400,50,50);
+      //var earthmaterial = new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('/Users/alaksatti/Desktop/earth/Images/earth.jpg'), side: THREE.DoubleSide});
+      //var material = new THREE.MeshBasicMaterial( earthmaterial );
+
+      var material = new THREE.MeshPhongMaterial({map: new THREE.TextureLoader().load('images/obj/earth.jpg')});
+
+      //var material = new THREE.MeshPhongMaterial({map: loader.load('Images/earth2.jpg')});
+      //material.map = THREE.ImageUtils.loadTexture('Images/earth.jpg');
+
+
+      //var texture = THREE.ImageUtils.loadTexture('Images/earth.jpg');
+      //var material = new THREE.MeshPhongMaterial( {map: texture} );
+      var earth = new THREE.Mesh(geometry,material);
+
+      // set position of earth
+
+      </script>
   </body>
 </html>
+
+
+
+
