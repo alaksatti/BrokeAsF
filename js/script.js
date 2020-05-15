@@ -68,6 +68,21 @@ function initMap() {
 		  {
 		      coordinates: {lat:37.7839, lng:-122.4190},
 		      content: '<h3> Project Open Hand </h3><p><b>Address</b>: 730 Polk Street, San Francisco, CA 94109</p><p><b>Offering</b>: Lunch [10:30am - 12:30pm] on <b> M - F </b></p><p><b>Note</b>: Age 59 & under with ID. $2 suggested donation; no one turned away. First come first serve.</p><p><b>Phone Number</b>: 415-447-2480 (8:30am - 1:30pm)</p>',
+		  },
+
+		  {
+		      coordinates: {lat:37.7819, lng:-122.4126},
+		      content: '<h3> St. Anthony’s Dining Room </h3><p><b>Address</b>: 121 Golden Gate Avenue, San Francisco, CA 94102</p><p><b>Offering</b>: Lunch [11:30am - 1:35pm] <b> Every Day </b></p><p><b>Note</b>: Full-course meal. Folks with kids, or age 59+, or unable to carry a tray: 10-11:45am. </p><p><b>Phone Number</b>: 415-241-2690</p>',
+		  },
+
+		  {
+		      coordinates: {lat:37.7780, lng:-122.44346},
+		      content: '<h3>  Third Baptist Church </h3><p><b>Address</b>: 1399 McAllister St, San Francisco, CA 94115</p><p><b>Offering</b>: Lunch [12:30pm - 1:30pm] <b> Thursdays </b></p><p><b>Note</b>:Meat, bread, vegetables, salad, punch & dessert. </p><p><b>Phone Number</b>: 415-241-2690</p>',
+		  },
+
+		  {
+		      coordinates: {lat:37.7268, lng:-122.3887},
+		      content: '<h3> United Council of Human Services </h3><p><b>Address</b>: 2111 Jennings Street, San Francisco, CA 94124</p><p><b>Offering</b>: Breakfast[7:00 - 9:00am] & Dinner [5:00pm - 7:00pm]  <b> Every Day </b></p><p><b>Note</b>: Hot breakfast. Hot dinner. </p><p><b>Phone Number</b>: 415-671-1100 (M-F 9am-5pm)</p>',
 		  }
 
 		  ];
