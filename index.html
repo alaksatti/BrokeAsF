@@ -7,6 +7,8 @@
     <script src="js/three.js"></script>
     <script src="js/three.min.js"></script>
     <script src="js/OrbitControls.js"></script>
+    <script src="https://kit.fontawesome.com/abe4eeb70a.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
@@ -21,6 +23,7 @@
 
 
       </div>
+
     </header>
     <div class='info'>
       <div class='About'>
@@ -41,21 +44,17 @@
         Take a look at this list to see which cities are serviced by BrokeAsF.<b>
           <li> San Francisco, CA </li><br>
       </div>
-    
       <div class='mapy'>
-	<a name='map'></a>
+      <a name='map'></a>
 
         <h3 class='maptitle'> Map </h3>
         <div id='map'></div>
 
             <script src="js/script.js"></script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=REDACTED&callback=initMap&l\
-ibraries=places" async defer></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt7GhsY7lvQTDHUpr2b8qFW5guK0vZQbc&callback=initMap&libraries=places" async defer></script>
 
       <br><br>
       </div>
-
-    </div>
 
       <div class='contact'>
       <a name='contact'></a>
@@ -107,11 +106,6 @@ ibraries=places" async defer></script>
       let controls = new THREE.OrbitControls(camera, renderer.domElement);
       controls.enableZoom = false;
 
-
-      // move object about its position
-      let controls = new THREE.OrbitControls(camera, renderer.domElement);
-      controls.enableZoom = false;
-
       //  scene background
       let space = [
         'images/scene/right.png', 'images/scene/left.png',
@@ -124,14 +118,15 @@ ibraries=places" async defer></script>
       scene.background = loader.load(space);
 
 
-
-        // create camera for earth
+      // create camera for earth
       earthcamera = new THREE.CubeCamera(1,1000,500);
       earthcamera.position.set(0,100,0);
       scene.add(earthcamera);
 
+
       // create a mesh that takes two params, geometry and Material
       // geometry, the geometry of 3d object
+
       // material, material of 3d object MeshBasicMaterial is solid colors, Phong - shiny surface with specular lights
 
       var geometry = new THREE.SphereGeometry(400,50,50);
@@ -149,9 +144,12 @@ ibraries=places" async defer></script>
       var earth = new THREE.Mesh(geometry,material);
 
       // set position of earth
+
       earth.position.set(0,50,0);
-      
+
       scene.add(earth);
+
+
       scene.add(new THREE.AmbientLight(0x333333));
       var light = new THREE.DirectionalLight(0xffffff, 1);
       light.position.set(5,100,5);
@@ -177,11 +175,9 @@ ibraries=places" async defer></script>
       earthcamera.updateCubeMap(renderer,scene);
       requestAnimationFrame(render);
 
-      
-      </script>
+
+    </script>
+
+
   </body>
 </html>
-
-
-
-
