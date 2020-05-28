@@ -104,6 +104,8 @@
 
       // move object about its position
       let controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+      // prevents earth from being zoomed in by user
       controls.enableZoom = false;
 
       //  scene background
