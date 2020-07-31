@@ -63,15 +63,11 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 ## Getting Started
 
 1. Go to the site <a href="https://brokeasf.com"><strong>BrokeAsF.com</strong></a>.
-<br />
-
 2. Accept permissions to access your location.  
 ** Dont worry your data is not stored! ** 
-<br />
-
 3. Scroll down to the map.
-<br />
 <b>Thats it!</b> 
+<br /> 
 <br />
 ***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
 
