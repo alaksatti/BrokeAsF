@@ -65,6 +65,7 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 
 <b>Thats it!</b> 
 <br />
+<br />
 ***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
 
 
@@ -83,11 +84,14 @@ BrokeAsF takes advantage of regularly occuring events in San Francisco that offe
 Currently BrokeAsF only services the San Francisco, CA area. However, in the future there are plans to expand to other locations in need.
 
 
+
+## Covid-19 Impacts
+
+Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Locations have been\
+ disabled until further notice.
+
 <!--
 ## Changes to Technology
 BrokeAsF is built using only front-end technology and APIs. Changes will be made to the architecture to the webapp to allow for a more robust application that would allow for more data to be collected. 
 --!>
 
-## Covid-19 Impacts
-
-Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Locations have been disabled until further notice.
