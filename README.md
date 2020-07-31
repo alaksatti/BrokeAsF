@@ -94,7 +94,7 @@ BrokeAsF takes advantage of regularly occuring events in San Francisco that offe
  
 ## RoadMap
 
-Currently BrokeAsF only services the San Francisco, CA area. However, in the future there are plans to expand to other locations in need.
+* Currently BrokeAsF only services the San Francisco, CA area. However, in the future there are plans to expand to other locations in need as well as create a mobile version of the application.
 
 
 
