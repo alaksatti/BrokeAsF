@@ -62,15 +62,17 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 
 ## Getting Started
 
-Go to the site <a href="https://brokeasf.com"><strong>BrokeAsF.com »</strong></a>.
+1. ``` Go to the site <a href="https://brokeasf.com"><strong>BrokeAsF.com »</strong></a>.
 <br />
-Accept permissions to access your location.  
+2. ``` Accept permissions to access your location.  
        * Dont worry your data is not stored!
 <br />
 
-Scroll down to the map.
+3. ``` Scroll down to the map.
 
-<b>Thats it!</b> Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
+<b>Thats it!</b> 
+
+***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
 
 
 
@@ -79,7 +81,7 @@ Scroll down to the map.
 Special consideration was taken into account for the design of the web application. Because people who need to use the app might feel embarassed about needing to use it, I did not want it to be obvious what this app was offering immediatley. This is so that someone passing by the screen of someone using the app would not be able to know that this person is looking for a meal. It is a way to maintain the privacy of the user and give them some consideration in regards to their situation.  In addition I  did not want the app to look like a 'broke app meant for broke people' as that may reinforce negative thoughts in the minds of those using the app. 
 
 
-### How Does it Work?
+## How Does it Work?
 BrokeAsF takes advantage of regularly occuring events in San Francisco that offer food/meals. These events are all over SF and are offered at a variety of times. Many times these events are FREE as a way to draw in people. It works both ways, it helps event planners fill up their events with people and helps people learn new things i.e. at tech events, while also getting a free meal. Although noted, this can have some unintended consequences.
 
  
