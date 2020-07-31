@@ -80,6 +80,6 @@ Special consideration was taken into account for the design of the web applicati
 
 
 ## How Does it Work?
-BrokeAsF takes advantage of regularly occuring events in San Francisco that offer food/meals. These events are all over SF and are offered at a variety of times. Many times these events are FREE as a way to draw in people. It works both ways, it helps event planners fill up their events with people and helps people learn new things i.e. at tech events, while also getting a free meal. Although noted, this can have some unintended consequences.
+BrokeAsF takes advantage of regularly occuring events in San Francisco that offer food/meals. These events are all over SF and are offered at a variety of times. Many times these events are FREE as a way to draw in people. The locations to these events  are accessed through APIs. Making this connection helps event planners fill up their events with people and helps people learn new things i.e. at tech events, while also getting a free meal. Although noted, this can have some unintended consequences.
 
  
