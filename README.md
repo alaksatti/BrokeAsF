@@ -28,7 +28,7 @@
 * [Why the Ambiguous Design](#why-the-ambiguous-design)
 * [How Does it Work?](how-does-it-work)
 * [Roadmap](#roadmap)
-
+* [Covid-19 Impacts](#covid--19-impacts)
 
 ## About The Project
 
@@ -83,11 +83,11 @@ BrokeAsF takes advantage of regularly occuring events in San Francisco that offe
 Currently BrokeAsF only services the San Francisco, CA area. However, in the future there are plans to expand to other locations in need.
 
 
-
+<!--
 ## Changes to Technology
 BrokeAsF is built using only front-end technology and APIs. Changes will be made to the architecture to the webapp to allow for a more robust application that would allow for more data to be collected. 
+--!>
 
-
-## Covid-19 Update
+## Covid-19 Impacts
 
 Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Locations have been disabled until further notice.
