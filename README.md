@@ -1,7 +1,6 @@
 <br />
 <p align="center">
   <a href="https://github.com/alaksatti/BrokeAsF">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">BrokeAsF</h1>
@@ -55,6 +54,8 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 
 
 ## Getting Started
+![alt text](https://github.com/alaksatti/BrokeAsF/blob/master/BrokeAsF%20Screenshot.png)
+
 
 1. Go to the site <a href="https://brokeasf.com"><strong>BrokeAsF.com</strong></a>.
 
