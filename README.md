@@ -75,7 +75,12 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 
 
 ## Data Model
+<br />
 
+<p align="center">
+  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/datamodel.png">
+</p><br />
+<br />
 ## Why the Ambiguous Design?
 
 Special consideration was taken into account for the design of the web application. Because people who need to use the app might feel embarassed about needing to use it, I did not want it to be obvious what this app was offering immediatley. This is so that someone passing by the screen of someone using the app would not be able to know that this person is looking for a meal. It is a way to maintain the privacy of the user and give them some consideration in regards to their situation.  In addition I  did not want the app to look like a 'broke app meant for broke people' as that may reinforce negative thoughts in the minds of those using the app. 
