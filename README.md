@@ -28,15 +28,9 @@
 * [Why the Ambiguous Design](#why-the-ambiguous-design)
 * [How Does it Work?](how-does-it-work)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 There is a large homeless population in the San Francisco, California area, specifially in the Tenderloin neighborhood of SF. It is no secret that hunger is a dominating issue among the homeless, however, hunger is not unique to homeless. Hunger has no face and has varying degrees. Considering the high standard of living in San Francisco, the issue of hunger may actually be more prevalent than expected. For many people, every dollar makes a difference.For some going out to eat or for a cup of coffee with coworkers or peers may require a quick calculation of their funds. Some may even have to skip meals because they cannot afford to eat. And while some people would enjoy a free meal, others require it. BrokeAsF is for these people. 
 
@@ -81,6 +75,19 @@ Special consideration was taken into account for the design of the web applicati
 
 
 ## How Does it Work?
-BrokeAsF takes advantage of regularly occuring events in San Francisco that offer food/meals. These events are all over SF and are offered at a variety of times. Many times these events are FREE as a way to draw in people. The locations to these events  are accessed through APIs. Making this connection helps event planners fill up their events with people and helps people learn new things i.e. at tech events, while also getting a free meal. Although noted, this can have some unintended consequences.
+BrokeAsF takes advantage of regularly occuring events in San Francisco that offer food/meals. These events are all over SF and are offered at a variety of times. Many times these events are FREE, most probably as a method to draw people to their events. The locations to these events are accessed through APIs. Making this connection helps event planners fill up their events with people and helps people learn new things i.e. at tech events, while also getting a free meal. Although noted, this can have some unintended consequences.
 
  
+## RoadMap
+
+Currently BrokeAsF only services the San Francisco, CA area. However, in the future there are plans to expand to other locations in need.
+
+
+
+## Changes to Technology
+BrokeAsF is built using only front-end technology and APIs. Changes will be made to the architecture to the webapp to allow for a more robust application that would allow for more data to be collected. 
+
+
+## Covid-19 Update
+
+Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Locations have been disabled until further notice.
