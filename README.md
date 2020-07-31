@@ -55,7 +55,7 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 
 ## Getting Started
 <p align="center">
-  <img width="460" height="300" src="https://github.com/alaksatti/BrokeAsF/blob/master/BrokeAsF%20Screenshot.png">
+  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/BrokeAsF%20Screenshot.png">
 </p>
 
 1. Go to the site <a href="https://brokeasf.com"><strong>BrokeAsF.com</strong></a>.
