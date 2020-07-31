@@ -68,6 +68,7 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 ** Dont worry your data is not stored! ** 
 
 3. Scroll down to the map.
+
 <b>Thats it!</b> 
 <br />
 ***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
