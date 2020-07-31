@@ -24,6 +24,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
+* [Data Model](#data-model)
 * [Why the Ambiguous Design](#why-the-ambiguous-design)
 * [How Does it Work?](how-does-it-work)
 * [Roadmap](#roadmap)
@@ -71,6 +72,9 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 ***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
 
 
+
+
+## Data Model
 
 ## Why the Ambiguous Design?
 
