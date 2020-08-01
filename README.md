@@ -66,7 +66,7 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 <br />
 <br />
 <p align="center">
-  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/BrokeAsF%20Screenshot.png">
+  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/images/BrokeAsF%20Screenshot.png">
 </p><br />
 <br />
 ***Your location is marked with the pedestrian icon and the locations offered are marked with red markers. You can click on the locations for addresses and more information i.e. food offered.
@@ -78,7 +78,7 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 <br />
 
 <p align="center">
-  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/datamodel.png">
+  <img src="https://github.com/alaksatti/BrokeAsF/blob/master/images/datamodel.png">
 </p><br />
 <br />
 <br>
