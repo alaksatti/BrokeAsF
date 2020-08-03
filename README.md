@@ -6,7 +6,7 @@
   <h1 align="center">BrokeAsF</h1>
 
   <p align="center">
-    BrokeAsF is a simple web application aimed to provide users with locations offering free meals near them in real time in the San Francisco area.
+    BrokeAsF is a simple web application aimed to provide users with locations offering free meals near them in real time in the San Francisco area. WORK IN PROGRESS!!
      <br />
     <a href="https://brokeasf.com"><strong>Check out the site! »</strong></a>
     <br />
