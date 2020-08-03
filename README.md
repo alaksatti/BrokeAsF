@@ -100,8 +100,7 @@ BrokeAsF takes advantage of regularly occuring events in San Francisco that offe
 
 ## Covid-19 Impacts
 
-Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Locations have been\
- disabled until further notice.
+Because BrokeAsF relies heavily on events for locations and because events have largely been cancelled due to the Covid-19 pandemic. Hard coded locations available for the time being offered from social services provided in the SF area. Once events become more readily available, work will resume to offer locations via API calls. 
 
 <!--
 ## Changes to Technology
