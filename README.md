@@ -47,9 +47,9 @@ BrokeAsF is a simple web application aimed to provide users with locations offer
 * Google Maps API
 * Google Places API
 * Google Geolocation API
-* SF Funcheap API
-* SF Services API
-* Events API
+* SF Funcheap API (pending)
+* SF Services API (pending)
+* Events API (pending)
 
 --More to come--
 
